@@ -12,6 +12,7 @@ import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
+import CarDetails from './Components/CarDetails/CarDetails';
 
 
 
@@ -31,7 +32,13 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact></Contact>
-  }
+  },
+  {
+    path: '/details/:id',
+
+    loader: ()=> fetch(`./data.json`),
+    element: <CarDetails></CarDetails>
+  },
   
 
     ]

@@ -24,10 +24,10 @@ const MyCars = () => {
     return (
         <div>
              
-     <h1 className="banner text-4xl font-bold text-center text-red-600 mt-10 mb-10 "> Pick Your Favourite One ! </h1>
+     <h1 className="banner2 text-4xl font-bold text-center text-red-600 mt-10 mb-10  "> Pick Your Favourite One ! </h1>
 
 
-     <div className="cars-container flex-grow">
+     <div className="cars-container flex-grow grid gap-10 grid-cols-1 md:grid-cols-3  lg:grid-cols-3">
 
     {
         cars.slice(0,length).map( car =><Car   

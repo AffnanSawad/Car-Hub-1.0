@@ -30,13 +30,13 @@ const Car = ({car}) => {
 
      <hr />
 
-     <Link>
+     <Link to={`/details/${id}`}>
     
      <button className='btn btn-accent'> Show Details </button>
     
     </Link>
 
-    
+
 
   </div>
 </div>

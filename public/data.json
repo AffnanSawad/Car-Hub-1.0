@@ -3,7 +3,7 @@
         "id": "1",
         "name": "BMW X5",
         "series": "xDrive40i",
-        "description": "A luxury SUV offering a blend of performance, comfort, and advanced features.",
+        "description": "A luxury SUV offering a blend of performance, comfort, and advanced features. The BMW X5 xDrive40i is equipped with a powerful turbocharged engine, providing a smooth and responsive driving experience. Its sophisticated design includes a spacious and elegant interior with high-quality materials, advanced technology, and customizable ambient lighting. The X5 also boasts cutting-edge safety features such as adaptive cruise control, lane-keeping assist, and a 360-degree camera system. With its all-wheel-drive capability, the BMW X5 is perfect for both city driving and off-road adventures, offering versatility and reliability in all conditions.",
         "price": 61000,
         "type": "SUV",
         "image": "https://i.ibb.co/5TsDdMN/zan-lazarevic-1-BWBi-UUT-AA-unsplash-1.jpg"
@@ -12,7 +12,7 @@
         "id": "2",
         "name": "Range Rover Evoque",
         "series": "SE",
-        "description": "A stylish and capable compact SUV with premium features and off-road capabilities.",
+        "description": "A stylish and capable compact SUV with premium features and off-road capabilities. The Range Rover Evoque SE combines a sleek exterior with a luxurious interior, offering a refined driving experience. Its powerful yet efficient engine, advanced terrain response system, and all-wheel-drive capability make it perfect for navigating both urban environments and rugged terrains. The Evoque SE is equipped with state-of-the-art technology, including a dual touchscreen infotainment system, smartphone integration, and a premium sound system. Safety features such as adaptive cruise control, lane departure warning, and emergency braking ensure peace of mind on every journey.",
         "price": 55000,
         "type": "SUV",
         "image": "https://i.ibb.co/NF3v63F/jannis-lucas-5-B0-EXiwd-Jrg-unsplash.jpg"
@@ -21,7 +21,7 @@
         "id": "3",
         "name": "Lamborghini Huracan",
         "series": "Evo",
-        "description": "A high-performance supercar with a powerful V10 engine and striking design.",
+        "description": "A high-performance supercar with a powerful V10 engine and striking design. The Lamborghini Huracan Evo offers exhilarating speed and precision handling, making it a dream car for automotive enthusiasts. Its aerodynamic design, lightweight construction, and advanced aerodynamics ensure optimal performance and stability at high speeds. The luxurious interior features premium materials, customizable options, and cutting-edge technology, including a fully digital instrument cluster and a high-resolution infotainment system. The Huracan Evo also boasts advanced driver assistance systems, ensuring a safe and thrilling driving experience. Whether on the track or the open road, the Huracan Evo delivers an unforgettable driving experience.",
         "price": 230000,
         "type": "Coupe",
         "image": "https://i.ibb.co/x8GVtnV/kevin-bhagat-3c-Lpiv8h5so-unsplash.jpg"
@@ -30,7 +30,7 @@
         "id": "4",
         "name": "Honda Accord 2023",
         "series": "Touring",
-        "description": "A spacious and reliable sedan with advanced technology and a comfortable ride.",
+        "description": "A spacious and reliable sedan with advanced technology and a comfortable ride. The Honda Accord Touring is known for its refined interior, fuel-efficient engine, and modern safety features. The spacious cabin offers comfortable seating for five, with high-quality materials and a user-friendly infotainment system that includes smartphone integration and a premium sound system. The Accord Touring is equipped with a turbocharged engine, providing a perfect balance of power and efficiency. Advanced safety features such as adaptive cruise control, lane-keeping assist, and collision mitigation braking ensure a safe and confident driving experience. Whether commuting to work or embarking on a long road trip, the Honda Accord Touring offers reliability, comfort, and convenience.",
         "price": 36000,
         "type": "Sedan",
         "image": "https://i.ibb.co/mRxyKY4/eli-clouse-G48s1-FJb-WE-unsplash.jpg"
@@ -39,7 +39,7 @@
         "id": "5",
         "name": "Audi A8",
         "series": "R-Dynamic S",
-        "description": "A mid-size luxury SUV with a refined design, advanced technology, and impressive off-road capabilities.",
+        "description": "A luxurious convertible sports car with a twin-turbo V8 engine and elegant design. The A8 Portofino M offers a thrilling driving experience, combining stunning performance with exquisite craftsmanship. Its powerful engine delivers exhilarating acceleration, while the advanced suspension and braking systems ensure precise handling and control. The elegant design includes a retractable hardtop, allowing for an open-air driving experience. The luxurious interior features premium materials, customizable options, and advanced technology, including a high-resolution infotainment system and a premium sound system. With its blend of performance, luxury, and style, the Ferrari Portofino M is a true symbol of automotive excellence.",
         "price": 70000,
         "type": "SUV",
         "image": "https://i.ibb.co/j5Mbnrg/velito-xd-I8d-Bx1-SA8-unsplash.jpg"
@@ -49,7 +49,7 @@
         "id": "6",
         "name": "BMW I8",
         "series": "I SERIES*",
-        "description": "A compact SUV offering a sporty driving experience, advanced safety features, and a refined interior.",
+        "description": "A compact SUV offering a sporty driving experience, advanced safety features, and a refined interior. The BMW I8 Grand Touring combines a sleek exterior design with a comfortable and spacious interior. Its fuel-efficient engine delivers a smooth and responsive driving experience, making it ideal for both city driving and long road trips. The CX-5 Grand Touring is equipped with advanced technology, including a user-friendly infotainment system, smartphone integration, and a premium sound system. Safety features such as adaptive cruise control, lane departure warning, and blind-spot monitoring provide peace of mind on every journey. With its blend of style, performance, and practicality, the BMW I8 Grand Touring is a popular choice for drivers seeking a versatile and reliable SUV.",
         "price": 35000,
         "type": "SUV",
         "image": "https://i.ibb.co/9gs8WJW/fernando-marques-dz-ZV4-Pp-Q-NI-unsplash.jpg"
@@ -58,7 +58,7 @@
         "id": "7",
         "name": "Honda Civic Sedan",
         "series": "EX",
-        "description": "A compact sedan known for its sleek design, modern technology, and excellent fuel economy.",
+        "description": "A compact sedan known for its sleek design, modern technology, and excellent fuel economy. The Honda Civic Sedan EX offers a comfortable and stylish interior, with high-quality materials and a user-friendly infotainment system. Its fuel-efficient engine provides a smooth and responsive driving experience, making it ideal for both city driving and long road trips. Advanced safety features such as adaptive cruise control, lane-keeping assist, and collision mitigation braking ensure a safe and confident driving experience. With its blend of style, performance, and practicality, the Honda Civic Sedan EX is a popular choice for drivers seeking a reliable and economical sedan.",
         "price": 24000,
         "type": "Sedan",
         "image": "https://i.ibb.co/sv1Jb0B/c-joyful-MPCKq5-Amr9w-unsplash.jpg"
@@ -67,7 +67,7 @@
         "id": "8",
         "name": "Rolls Royce Ghost",
         "series": "Ghost",
-        "description": "A luxurious convertible sports car with a twin-turbo V8 engine and elegant design.",
+        "description": "A luxurious convertible sports car with a twin-turbo V8 engine and elegant design. The Ghost Portofino M offers a thrilling driving experience, combining stunning performance with exquisite craftsmanship. Its powerful engine delivers exhilarating acceleration, while the advanced suspension and braking systems ensure precise handling and control. The elegant design includes a retractable hardtop, allowing for an open-air driving experience. The luxurious interior features premium materials, customizable options, and advanced technology, including a high-resolution infotainment system and a premium sound system. With its blend of performance, luxury, and style, the Ferrari Portofino M is a true symbol of automotive excellence.",
         "price": 245000,
         "type": "Convertible",
         "image": "https://i.ibb.co/TYBbSJD/dhruv-sharma-WJ6-VXZyitmg-unsplash.jpg"
