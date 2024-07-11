@@ -1,0 +1,76 @@
+[
+    {
+        "id": "1",
+        "name": "BMW X5",
+        "series": "xDrive40i",
+        "description": "A luxury SUV offering a blend of performance, comfort, and advanced features.",
+        "price": 61000,
+        "type": "SUV",
+        "image": "https://i.ibb.co/5TsDdMN/zan-lazarevic-1-BWBi-UUT-AA-unsplash-1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Range Rover Evoque",
+        "series": "SE",
+        "description": "A stylish and capable compact SUV with premium features and off-road capabilities.",
+        "price": 55000,
+        "type": "SUV",
+        "image": "https://i.ibb.co/NF3v63F/jannis-lucas-5-B0-EXiwd-Jrg-unsplash.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Lamborghini Huracan",
+        "series": "Evo",
+        "description": "A high-performance supercar with a powerful V10 engine and striking design.",
+        "price": 230000,
+        "type": "Coupe",
+        "image": "https://i.ibb.co/x8GVtnV/kevin-bhagat-3c-Lpiv8h5so-unsplash.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Honda Accord 2023",
+        "series": "Touring",
+        "description": "A spacious and reliable sedan with advanced technology and a comfortable ride.",
+        "price": 36000,
+        "type": "Sedan",
+        "image": "https://i.ibb.co/mRxyKY4/eli-clouse-G48s1-FJb-WE-unsplash.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Audi A8",
+        "series": "R-Dynamic S",
+        "description": "A mid-size luxury SUV with a refined design, advanced technology, and impressive off-road capabilities.",
+        "price": 70000,
+        "type": "SUV",
+        "image": "https://i.ibb.co/j5Mbnrg/velito-xd-I8d-Bx1-SA8-unsplash.jpg"
+    },
+   
+    {
+        "id": "6",
+        "name": "BMW I8",
+        "series": "I SERIES*",
+        "description": "A compact SUV offering a sporty driving experience, advanced safety features, and a refined interior.",
+        "price": 35000,
+        "type": "SUV",
+        "image": "https://i.ibb.co/9gs8WJW/fernando-marques-dz-ZV4-Pp-Q-NI-unsplash.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Honda Civic Sedan",
+        "series": "EX",
+        "description": "A compact sedan known for its sleek design, modern technology, and excellent fuel economy.",
+        "price": 24000,
+        "type": "Sedan",
+        "image": "https://i.ibb.co/sv1Jb0B/c-joyful-MPCKq5-Amr9w-unsplash.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Rolls Royce Ghost",
+        "series": "Ghost",
+        "description": "A luxurious convertible sports car with a twin-turbo V8 engine and elegant design.",
+        "price": 245000,
+        "type": "Convertible",
+        "image": "https://i.ibb.co/TYBbSJD/dhruv-sharma-WJ6-VXZyitmg-unsplash.jpg"
+    }
+ 
+]

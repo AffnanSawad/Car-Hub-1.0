@@ -11,6 +11,7 @@ import {
 import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
+import Contact from './Components/Contact/Contact';
 
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>
+  },
+  {
+    path: '/contact',
+    element: <Contact></Contact>
   }
   
 
