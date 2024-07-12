@@ -34,7 +34,7 @@ const notify2 = () =>{
 }
 
     return (
-        <div className='banner mt-10 flex gap-10 mb-20'>
+        <div className='banner mt-10 grid grid-flow-row  ml-2 md:flex flex-row gap-10 mb-20'>
 
          
 
