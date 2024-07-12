@@ -14,6 +14,7 @@ import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import CarDetails from './Components/CarDetails/CarDetails';
 import Booking_List from './Components/Booking_list/Booking_List';
+import Statistics from './Components/Statistics/Statistics';
 // import Add_To_My_Cart from './Components/AddToMy_Cartt.jsx/Add_To_My_Cart';
 
 
@@ -46,6 +47,12 @@ const router = createBrowserRouter([
 
     loader: ()=> fetch('/data.json'),
     element: <Booking_List></Booking_List>
+  },
+  {
+    path: '/stat',
+
+ 
+    element: <Statistics></Statistics>
   },
 
   
