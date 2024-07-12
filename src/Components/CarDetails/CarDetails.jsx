@@ -1,7 +1,7 @@
 
 import { useLoaderData, useParams } from 'react-router-dom';
 
-
+ import {saveBookedCars} from '../Utility/localstorage'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,14 +18,20 @@ const CarDetails = () => {
    console.log(car_detail); 
 
 
+   const idInt = parseInt(id);
+
+
 
 //    toast
 
-const notify1 = () => toast("Added To The Cart");
-const notify2 = () => toast("Booked Successfully");
+
+const notify2 = () =>{
+    
+    saveBookedCars(id);
+    toast("Booked Successfully");
 
 
-
+}
 
     return (
         <div className='banner mt-10 flex gap-10 mb-20'>
@@ -45,7 +51,7 @@ const notify2 = () => toast("Booked Successfully");
 
          <div className="flex gap-5 mt-5">
 
-         <button onClick={notify1} className='btn btn-accent'>Add To Cart</button>
+         {/* <button onClick={notify1} className='btn btn-accent'>Add To Cart</button> */}
 
 
          <button onClick={notify2} className='btn btn-error'>Book Now !</button>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 const Car = ({car}) => {
@@ -29,6 +29,8 @@ const Car = ({car}) => {
      </div>
 
      <hr />
+
+     {/* SHOW DETAILS BUTTON */}
 
      <Link to={`/details/${id}`}>
     
