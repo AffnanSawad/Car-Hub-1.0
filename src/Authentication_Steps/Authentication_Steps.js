@@ -12,6 +12,8 @@
 
 6. crate privateRoute component  & set it.
 
+7. login/signup  success / fail hole ta show kora !!!
+
 
 
 

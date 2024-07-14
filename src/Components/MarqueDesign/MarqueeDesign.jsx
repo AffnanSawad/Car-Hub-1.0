@@ -34,6 +34,12 @@ const MarqueeDesign = () => {
    <img className="w-1/2  mr-32" src="https://i.ibb.co/3YzzYyM/ford-logo-transparent-background-vector-illustration-motor-company-american-multinational-automobile.webp" alt="BMW-svg" />
 
 
+   <img className="w-1/2  mr-32" src="https://i.ibb.co/c3pXPkw/Mercedes-Benz-logo-1933.webp" alt="BMW-svg" />
+
+
+   <img className="w-1/2 h-56  mr-32" src="https://i.ibb.co/q0Bn3h0/099fb01b26c78dd9c0b20b810df7b84f.jpg" alt="BMW-svg" />
+
+
    
 
 

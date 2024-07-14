@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Link } from "react-router-dom";
 
@@ -8,6 +8,12 @@ const SignUp = () => {
 //    import context
 
  const {sign_Up} =useContext(AuthContext)
+
+
+//  signup success/ error
+
+const [success , setSuccess] = useState('');
+const [error , setError] = useState('');
 
    
     // form handler
@@ -23,6 +29,28 @@ const SignUp = () => {
         console.log(name,email,password);
 
 
+
+        if(password.length < 6 ){
+
+          setError('Password must have atleast 6 characters');
+
+          return;
+        }
+       
+        // regex 
+        if(!/^(?=.*[A-Z])(?=.*\d).+$/.test(password)){
+
+          setError('Password must have atleast One Uppercase');
+
+          return;
+        }
+
+       
+        //  jate error essage er por , right message asle => ager error message ta jate cle jai....
+        setError('');
+        setSuccess('');
+
+
         // signup = firebase
 
         sign_Up(email,password)
@@ -30,23 +58,27 @@ const SignUp = () => {
 
             console.log(result.user);
 
+            setSuccess('Sign Up Successfully');
+
             // reset form
             e.target.reset();
         })
 
         .catch(error=>{
 
-            console.error(error.message);
+            console.error(error);
+
+            setError(error.message);
         })
     }
 
 
 
     return (
-        <div className="hero bg-base-100 min-h-screen">
+        <div className="hero bg-green-100 mb-20 mt-10 min-h-screen">
   <div className="hero-content flex-col">
     <div className="text-center">
-      <h1 className="text-4xl text-green-600 font-bold">Sign Up !</h1>
+      <h1 className="text-4xl text-green-600 font-bold">Sign Up Now !</h1>
      
     </div>
     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -116,7 +148,12 @@ const SignUp = () => {
 
       </form>
 
-  
+      {
+            error && <p className="text-red-600 text-xl font-extrabold mb-10 ml-8 "> {error} </p>
+          }
+          {
+            success && <p className="text-xl font-extrabold mb-10 ml-8 text-green-500"> {success} </p>
+          }
 
 
     </div>

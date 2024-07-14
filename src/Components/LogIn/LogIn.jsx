@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Link } from "react-router-dom";
 
@@ -7,8 +7,13 @@ const LogIn = () => {
 
 
   
-    
- const {log_In} =useContext(AuthContext)
+  // usecontext
+ const {log_In} =useContext(AuthContext);
+
+//  log in error / success
+
+const [logInError , setLogInError] = useState('');
+const [success,setSuccess] = useState('');
 
    
  // form handler
@@ -24,6 +29,27 @@ const LogIn = () => {
      console.log(email,password);
 
 
+     if(password.length<6){
+
+      setLogInError('Password must be greater than 6 words');
+
+      return;
+     }
+      
+    //  regex sbsmy /  regex  / er mddhe hoi.
+     if(! /^(?=.*[A-Z]).{8,}$/.test(password)){
+
+      setLogInError('Password must have atleast  One Uppercase');
+      
+
+     }
+
+
+    // jate error essage er por , right message asle => ager error message ta jate cle jai....
+    setLogInError('');
+    setSuccess('');
+
+
      // signup = firebase
 
      log_In(email,password)
@@ -31,13 +57,17 @@ const LogIn = () => {
 
          console.log(result.user);
 
+         setSuccess('Log In Successfully!');
+
          // reset form
          e.target.reset();
      })
 
      .catch(error=>{
 
-         console.error(error.message);
+         console.error(error);
+
+         setLogInError(error.message);
 
          e.target.reset()
      })
@@ -47,7 +77,7 @@ const LogIn = () => {
 
 
     return (
-        <div className="hero bg-base-100 min-h-screen">
+        <div className="hero bg-blue-200 mb-20 mt-10 min-h-screen">
         <div className="hero-content flex-col">
           <div className="text-center">
             <h1 className="text-4xl text-blue-600 font-bold">Log In Now !</h1>
@@ -114,7 +144,12 @@ const LogIn = () => {
            </Link> First ! </p>
       
             </form>
-      
+          {
+            logInError && <p className="text-red-600 text-xl font-extrabold mb-10 ml-8 "> {logInError} </p>
+          }
+          {
+            success && <p className="text-xl font-extrabold mb-10 ml-8 text-green-500"> {success} </p>
+          }
         
       
       
