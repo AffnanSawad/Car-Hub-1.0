@@ -46,7 +46,7 @@ const Booking_List = () => {
         <div>
             <h1 className="text-2xl font-extrabold text-red-600 mt-10 mb-10"> Booked Cars : {bookedCars.length} </h1>
 
-       <div className="grid grid-cols-1 gap-5 md:grid-cols-3 gap-5">
+       <div className="grid grid-cols-1 gap-5 mb-10 md:grid-cols-3 gap-5 mb-10">
 
 
        {
