@@ -1,6 +1,10 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Link } from "react-router-dom";
+import { FaFacebook } from "react-icons/fa";
+
+
+import { FcGoogle } from "react-icons/fc";
 
 
 const LogIn = () => {
@@ -8,7 +12,7 @@ const LogIn = () => {
 
   
   // usecontext
- const {log_In} =useContext(AuthContext);
+ const {log_In,googleLogIn,facebookLogin} =useContext(AuthContext);
 
 //  log in error / success
 
@@ -74,10 +78,43 @@ const [success,setSuccess] = useState('');
  }
 
 
+  // google login
+ const handleGoogle = ()=>{
+
+  googleLogIn()
+
+ .then(result =>console.log(result.user))
+
+
+ .catch(error=>{
+  console.error(error.message)
+ })
+
+ }
+
+
+//  facebook login
+
+ const handlefacebook = () => {
+
+  facebookLogin()
+
+  .then(result =>{
+    console.log(result.user);
+  })
+ 
+  
+  .catch(error=>{
+    console.error(error.message)
+   })
+
+ }
+
+
 
 
     return (
-        <div className="hero bg-blue-200 mb-20 mt-10 min-h-screen">
+        <div className="hero bg-base-100 mb-20 mt-10 min-h-screen">
         <div className="hero-content flex-col">
           <div className="text-center">
             <h1 className="text-4xl text-blue-600 font-bold">Log In Now !</h1>
@@ -144,6 +181,45 @@ const [success,setSuccess] = useState('');
            </Link> First ! </p>
       
             </form>
+          
+          <hr />
+
+            {/* facebook,google login  */}
+
+          <div className="flex ml-2 mt-4 mb-4 ">
+
+
+          <button onClick={handleGoogle} 
+          
+          className="btn text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 ml-5  mb-2">
+            
+             <FcGoogle />
+           Google
+           
+           
+           </button>
+
+         
+
+
+<button onClick={handlefacebook} 
+
+
+className="btn btn-accent 
+
+
+text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55  ml-10"> 
+
+
+ <FaFacebook />  Facebook</button>
+
+
+
+
+
+
+          </div>
+
           {
             logInError && <p className="text-red-600 text-xl font-extrabold mb-10 ml-8 "> {logInError} </p>
           }

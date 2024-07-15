@@ -75,7 +75,7 @@ const [error , setError] = useState('');
 
 
     return (
-        <div className="hero bg-green-100 mb-20 mt-10 min-h-screen">
+        <div className="hero bg-base-100 mb-20 mt-10 min-h-screen">
   <div className="hero-content flex-col">
     <div className="text-center">
       <h1 className="text-4xl text-green-600 font-bold">Sign Up Now !</h1>

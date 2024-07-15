@@ -14,6 +14,10 @@
 
 7. login/signup  success / fail hole ta show kora !!!
 
+8. loader , spinner add.
+
+9. google , facebook log in add .
+
 
 
 
