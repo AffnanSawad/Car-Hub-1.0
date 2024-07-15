@@ -111,9 +111,6 @@ text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradien
 ">Log Out</a>
 </div>
 
-
-
-
  
 </>
 
